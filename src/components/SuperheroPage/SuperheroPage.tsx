@@ -1,3 +1,5 @@
+import { SuperheroDetails } from "./SuperheroDetails/SuperheroDetails";
+
 export const SuperheroPage = () => {
-  return <div></div>;
+  return <SuperheroDetails />;
 };

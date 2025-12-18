@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <nav>
       <Link to="/">
-        <h1>Cat Wiki</h1>
+        <h1>Superhero Wiki</h1>
       </Link>
     </nav>
   );
