@@ -1,0 +1,21 @@
+.superhero-card {
+  text-align: center;
+}
+
+.superhero-card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.superhero-img {
+  cursor: pointer;
+}
+
+.superhero-name {
+  cursor: pointer;
+}
+
+.superhero-name:hover {
+  text-decoration: underline;
+}

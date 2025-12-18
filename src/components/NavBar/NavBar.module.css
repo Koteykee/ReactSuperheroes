@@ -1,0 +1,71 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(202, 212, 247);
+}
+
+.title {
+  cursor: pointer;
+}
+
+.sign-in {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title:hover,
+.sign-in:hover {
+  color: rgb(12, 80, 148);
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.currentUser {
+  cursor: pointer;
+}
+
+.menu-icon {
+  cursor: pointer;
+  background-color: rgb(87, 191, 240);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.menu-wrapper-container {
+  position: relative;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: max-content;
+  min-width: 160px;
+  margin-top: 6px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu-item {
+  background-color: white;
+  padding: 10px;
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-inner {
+  padding: 12px;
+  border-radius: 10px;
+  display: block;
+}
+
+.menu-item:hover .menu-inner {
+  background-color: #f1f1f1;
+}

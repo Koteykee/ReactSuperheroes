@@ -1,0 +1,62 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(147, 143, 184);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.titles {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  background-color: rgba(112, 123, 180, 0.7);
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.title:hover {
+  background-color: rgba(100, 106, 189, 0.6);
+}
+
+.title.active {
+  border: 2px solid rgb(244, 253, 114);
+}
+
+.signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 4px;
+  background-color: rgb(112, 218, 191);
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 16px;
+  color: rgb(233, 35, 9);
+}
+
+.hint {
+  font-size: 14px;
+  color: rgb(233, 233, 233);
+}

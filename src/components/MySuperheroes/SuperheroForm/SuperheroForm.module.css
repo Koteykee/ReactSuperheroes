@@ -1,0 +1,95 @@
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(170, 166, 206);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px 20px;
+}
+
+.biography-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.biography-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.select {
+  width: 50%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.main-title {
+  padding-bottom: 10px;
+}
+
+.sub-title {
+  padding: 10px 0;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.main-name {
+  padding-right: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.main-input {
+  padding: 5px;
+  width: 50%;
+  font-size: 18px;
+}
+
+.text-input {
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.button {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+  padding: 4px;
+  background-color: rgb(112, 218, 191);
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 18px;
+  color: rgb(233, 35, 9);
+  margin-top: 10px;
+}
