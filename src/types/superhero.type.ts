@@ -1,5 +1,6 @@
 export interface Superhero {
   id: number | string;
+  userId: number;
   name: string;
   slug: string;
   powerstats: PowerStats;
