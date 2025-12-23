@@ -1,8 +1,8 @@
 export interface Superhero {
-  id: number | string;
-  userId: number;
+  id: string | number;
+  userId: string | number;
   name: string;
-  slug: string;
+  slug?: string;
   powerstats: PowerStats;
   appearance: Appearance;
   biography: Biography;
@@ -50,8 +50,8 @@ export interface Connections {
 }
 
 export interface Images {
-  xs: string;
-  sm: string;
-  md: string;
+  xs?: string;
+  sm?: string;
+  md?: string;
   lg: string;
 }

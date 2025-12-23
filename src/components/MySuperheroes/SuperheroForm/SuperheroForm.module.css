@@ -49,20 +49,21 @@
   font-size: 18px;
 }
 
-.main-title {
-  padding-bottom: 10px;
+.main-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
 }
 
 .sub-title {
-  padding: 10px 0;
+  margin: 10px 0;
   font-size: 18px;
   text-decoration: underline;
 }
 
 .main-name {
-  padding-right: 10px;
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .main-input {
