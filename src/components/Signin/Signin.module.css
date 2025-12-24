@@ -28,18 +28,17 @@
   border: 2px solid rgb(244, 253, 114);
 }
 
-.signup-wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 10px;
 }
 
-.login-wrapper {
+.field {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 10px;
 }
 
 .button {
@@ -54,9 +53,4 @@
 .error {
   font-size: 16px;
   color: rgb(233, 35, 9);
-}
-
-.hint {
-  font-size: 14px;
-  color: rgb(233, 233, 233);
 }

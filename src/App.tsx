@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useUserStore } from "./stores/userStore";
 
 import { NavBar } from "./components/NavBar/NavBar";
 import { Home } from "./components/Home";
@@ -9,6 +11,10 @@ import { SuperheroForm } from "./components/MySuperheroes/SuperheroForm/Superher
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    useUserStore.getState().loadFromStorage();
+  }, []);
+
   return (
     <BrowserRouter>
       <NavBar />
