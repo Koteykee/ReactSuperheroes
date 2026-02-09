@@ -14,7 +14,7 @@ export const MySuperheroesPage = () => {
     if (!currentUser) return [];
 
     const data: Superhero[] = JSON.parse(
-      localStorage.getItem("superheroes") || "[]"
+      localStorage.getItem("superheroes") || "[]",
     );
 
     return data.filter((hero) => hero.userId === currentUser.id);
@@ -25,6 +25,9 @@ export const MySuperheroesPage = () => {
   };
 
   const deleteHero = (id: Superhero["id"]) => {
+    const confirmed = confirm("Do you really want to delete this superhero?");
+    if (!confirmed) return;
+
     setSuperheroes((prev) => {
       const updated = prev.filter((hero) => hero.id !== id);
       localStorage.setItem("superheroes", JSON.stringify(updated));
