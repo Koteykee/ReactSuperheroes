@@ -12,7 +12,7 @@ While working on this project, I learned and successfully implemented the follow
 ## Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/Koteykee/VuePosts
+git clone https://github.com/Koteykee/ReactSuperheroes.git
 ```
 2. Install NPM packages
 ```sh
